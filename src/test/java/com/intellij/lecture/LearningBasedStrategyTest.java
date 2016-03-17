@@ -1,8 +1,5 @@
 package com.intellij.lecture;
 
-import com.intellij.lecture.exam.Exam;
-import com.intellij.lecture.strategy.LearningBasedStrategy;
-import com.intellij.lecture.student.Student;
 import org.junit.Before;
 import org.junit.Test;
 

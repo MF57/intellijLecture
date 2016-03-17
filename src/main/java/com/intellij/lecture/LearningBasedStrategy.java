@@ -1,7 +1,4 @@
-package com.intellij.lecture.strategy;
-
-import com.intellij.lecture.exam.Exam;
-import com.intellij.lecture.student.Student;
+package com.intellij.lecture;
 
 /**
  * Created by mf57 on 13.03.2016.

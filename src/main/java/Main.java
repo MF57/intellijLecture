@@ -1,27 +1,16 @@
-import com.intellij.lecture.exam.Exam;
-import com.intellij.lecture.student.Student;
-import com.intellij.lecture.student.StudentBuilder;
+import com.intellij.lecture.Exam;
+import com.intellij.lecture.Student;
 
 /**
  * Created by mf57 on 13.03.2016.
  */
 public class Main {
 
-    public static final int IQ = 100;
-    public static final int TIME = 100;
-
     public static void main(String[] args) {
 
         Student student = null;
         if (args.length == 4) {
-            student = new StudentBuilder()
-                    .setName(args[0])
-                    .setSurname(args[1])
-                    .setIndexNumber(args[2])
-                    .setMail(args[3])
-                    .setIq(IQ)
-                    .setTime(TIME)
-                    .createStudent();
+            student = new Student(args[0], args[1], args[2], args[3]);
         }
         if (student != null) {
             System.out.println(student.toString());
