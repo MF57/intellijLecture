@@ -1,4 +1,3 @@
-import com.intellij.lecture.Exam;
 import com.intellij.lecture.Student;
 
 /**
@@ -14,7 +13,6 @@ public class Main {
         }
         if (student != null) {
             System.out.println(student.toString());
-            System.out.println("Exam result: " + student.writeExam(new Exam("WDI", 120, 120)));
         }
     }
 }
